@@ -1,0 +1,25 @@
+.contact h3 {
+    margin: 40px;
+    
+}
+.contact p {
+    margin-left: 40px;
+    margin-top: -20px;
+    color: blue;
+    cursor: pointer;
+}
+.contact h4{
+    margin-left: 40px;
+    margin-top: -20px;
+    color: blue;
+    font-size: larger;
+}
+
+.socialmedia-contaqt img{
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}

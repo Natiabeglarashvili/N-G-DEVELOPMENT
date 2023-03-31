@@ -1,0 +1,50 @@
+.apartments h6{
+    font-size: xx-large;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    color: rgb(19, 155, 218);
+}
+
+
+.apartments-img{
+    display: flex;
+     width: 100%;
+     flex-wrap: wrap;
+     margin-top: 40px;
+     justify-content: center;
+}
+.apartments-img  img div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+   
+}
+
+.apartments-img img{
+    height: 500px;
+    width: 700px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.apartments-img div{
+    flex-grow: 40%;
+}
+.apartments-img p{
+    margin: 30px;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-size: x-large;
+}
+
+@media (max-width: 826px){
+    .apartments-img img{
+        height: 250px;
+        width: 350px;
+        margin: 20px;
+    }
+}
