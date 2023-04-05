@@ -1,18 +1,19 @@
 .contact h3 {
     margin: 40px;
-    
+    font-size: x-large;
 }
 .contact p {
     margin-left: 40px;
     margin-top: -20px;
     color: blue;
     cursor: pointer;
+    font-size: x-large;
 }
 .contact h4{
     margin-left: 40px;
     margin-top: -20px;
     color: blue;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .socialmedia-contaqt img{
@@ -22,4 +23,13 @@
     border-radius: 20px;
     margin-top: 50px;
     cursor: pointer;
+}
+@media (max-width: 700px){
+    .contact p, .contact h4 {
+        font-size: 17px;
+    }
+    .socialmedia-contaqt img{
+        width: 80px;
+        height: 80px;
+    }
 }

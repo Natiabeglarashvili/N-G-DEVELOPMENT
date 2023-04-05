@@ -9,8 +9,8 @@ li {
 a {
     text-decoration: none;
     color: rgb(17, 17, 17);
-    font-size: large;
-    margin: 20px;
+    font-size:x-large;
+    margin: 30px;
 }
 
 .nav{
@@ -27,7 +27,7 @@ a {
  background-color: rgb(255, 255, 255);
  margin-top: 10px;
  color: rgb(14, 94, 148);
- font-size: larger;
+ font-size: x-large;
 
 }
 .nav_menu {
@@ -61,14 +61,20 @@ display: none;
     text-align: center;
     top: 16.5vh;
     right: 0;
-    width: 32%;
-    height: 69.3vh;
+    width: 34%;
+    height: 49.3vh;
    margin-right: -10.5px;
    background-color: rgb(88, 147, 184);
    flex-direction: column;
   transform: translateX(100%);
   transition: 0.3s ease-in;
+  font-size: large;
    }
+   a{
+    font-size:15px;
+    margin: 0px;
+   }
+   
 }
 
 /* nav Active class */

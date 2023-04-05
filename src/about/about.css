@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-   
+    margin-left: 20px;
    
 }
 .about-img a{
@@ -23,7 +23,8 @@
 }
 .about p{
     margin-top: 20px;
-    font-size:large;
+    font-size:x-large;
+    
 }
 
 .namber h6{
@@ -56,15 +57,44 @@
     margin-bottom: 60px;
 }
 .green img{
-    height: 430px;
-    width: 465px;
-    margin: 15px;
+    height: 550px;
+    width: 590px;
+    margin: 20px;
     border-radius: 30px;
 }
  :active .green h6{
     background-color: rgb(52, 148, 52);
     border-radius: 20px;
-    
-    
-    
+}
+@media (max-width: 700px){
+     .about-img img{
+        width: 350px;
+        height: 300px;
+        margin: 30px;
+     }
+     .about-img a{
+        font-size: large;
+     }
+     
+     .green h6{
+        font-size: 20px;
+        margin-left: 40px;
+     }
+     .about p{
+        margin: 10px;
+        font-size: medium;
+     }
+     .green .img{
+        height: 300px;
+        width: 200px;
+        margin: 25px;
+     }
+     .namber h6{
+        margin-top: -30px;
+        font-size: 15px;
+        margin: 5px;
+    }
+    .namber{
+        margin-left: 20px;
+    }
 }

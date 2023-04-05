@@ -5,13 +5,13 @@
     border-radius: 10px;
 }
  .footer h4{
-    margin: 20px;
+    margin: 30px;
     margin-top: 150px;
     font-size: xx-large;
     
 }
 .footer h6{
-    margin: 20px;
+    margin: 30px;
     margin-top: -110px;
     font-size: medium;
    
@@ -19,7 +19,7 @@
 .socialmedia  img {
     width: 50px;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 60px;
     cursor: pointer;
 }
@@ -28,4 +28,9 @@
 }
 :hover .footer {
     background-color: rgb(217, 218, 217);
+}
+@media (max-width: 700px){
+    .footer h4, .footer h6, .socialmedia  img{
+        margin-left: 50px;
+    }
 }
