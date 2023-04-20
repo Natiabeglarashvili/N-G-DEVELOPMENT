@@ -23,7 +23,7 @@
 }
 .about p{
     margin-top: 20px;
-    font-size:x-large;
+    font-size:large;
     
 }
 
@@ -43,6 +43,7 @@
     box-sizing: border-box;
      background-color: rgb(136, 151, 146);
      border-radius: 60px;
+    margin-left: 20px;
     
 }
 .namber:active{
@@ -57,8 +58,8 @@
     margin-bottom: 60px;
 }
 .green img{
-    height: 550px;
-    width: 590px;
+    height: 410px;
+    width: 400px;
     margin: 20px;
     border-radius: 30px;
 }

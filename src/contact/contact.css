@@ -1,13 +1,13 @@
 .contact h3 {
     margin: 40px;
-    font-size: x-large;
+    font-size: large;
 }
 .contact p {
     margin-left: 40px;
     margin-top: -20px;
     color: blue;
     cursor: pointer;
-    font-size: x-large;
+    font-size: large;
 }
 .contact h4{
     margin-left: 40px;
@@ -18,8 +18,8 @@
 
 .socialmedia-contaqt img{
     margin-left: 40px;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 20px;
     margin-top: 50px;
     cursor: pointer;

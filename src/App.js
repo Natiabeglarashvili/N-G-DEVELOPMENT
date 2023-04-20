@@ -13,9 +13,9 @@ import Contact from "./contact/contact"
 function App () {
   return (
     
-      <div>
+      <div className="body">
         <BrowserRouter>
-         <Navbar />
+        <Navbar />
          <Routes>
          <Route path="/"element={<Main />} />
          <Route path="/about" element={<About />} />

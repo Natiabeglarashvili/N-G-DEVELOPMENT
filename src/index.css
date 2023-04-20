@@ -8,8 +8,8 @@
  height: 50vh;
 }
 video {
- width: 99%;
- height: 690px;
+ width: 93%;
+ height: 540px;
  object-fit: cover;
  margin: 10px;
  margin-left: 50px;
@@ -17,10 +17,11 @@ video {
  align-items: center;
  position: relative;
  z-index: -2;
+ 
 }
 video, table {
 filter: brightness(150%);
-filter: contrast(110%);
+
 }
 .content, h1 {
 justify-content: center;
@@ -90,4 +91,10 @@ background-color: blue;
     width: 350px;
     height: 150px;
   }
+}
+
+body{
+  width: 100vw;
+  overflow-x: hidden;
+
 }

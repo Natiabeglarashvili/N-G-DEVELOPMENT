@@ -5,11 +5,12 @@
 
 li {
     list-style: none;
+    
 }
 a {
     text-decoration: none;
     color: rgb(17, 17, 17);
-    font-size:x-large;
+    font-size:large;
     margin: 30px;
 }
 
@@ -41,7 +42,7 @@ gap: 0.1rem;
 width: 2rem;
 height: 0.2rem;
 margin: 0.4rem;
-background: rgb(14, 94, 148);
+background: rgb(7, 108, 161);
 transition: 0.5s ease-in;
 
 }
